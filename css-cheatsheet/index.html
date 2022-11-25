@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS attribute selector</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>CSS <span class="h1__span">[ Attribute ]</span> Selector</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Selector</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="selector">[attribute]</td>
+          <td>
+            The selector is used to select elements with a specified attribute.
+          </td>
+        </tr>
+
+        <tr>
+          <td class="selector">[attribute="value"]</td>
+          <td>
+            The selector is used to select elements with a specified attribute
+            and value.
+          </td>
+        </tr>
+
+        <tr>
+          <td class="selector">[attribute~="value"]</td>
+          <td>
+            The selector is used to select elements with an attribute value
+            containing a specified word.
+          </td>
+        </tr>
+
+        <tr>
+          <td class="selector">[attribute|="value"]</td>
+          <td>
+            The selector is used to select elements with the specified
+            attribute, whose value can be exactly the specified value, or the
+            specified value followed by a hyphen (-).
+          </td>
+        </tr>
+
+        <tr>
+          <td class="selector">[attribute^="value"]</td>
+          <td>
+            The selector is used to select elements with the specified
+            attribute, whose value starts with the specified value.
+          </td>
+        </tr>
+
+        <tr>
+          <td class="selector">[attribute$="value"]</td>
+          <td>
+            The selector is used to select elements whose attribute value ends
+            with a specified value.
+          </td>
+        </tr>
+
+        <tr>
+          <td class="selector">[attribute*="value"]</td>
+          <td>
+            The selector is used to select elements whose attribute value
+            contains a specified value.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
