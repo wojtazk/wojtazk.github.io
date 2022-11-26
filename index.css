@@ -5,6 +5,10 @@
   font-size: 100%;
 }
 
+body {
+  width: 100%;
+}
+
 main {
   width: fit-content;
   margin: 0 auto;
@@ -25,7 +29,7 @@ img {
 }
 
 a {
-  margin: 2em;
+  margin: 1em 2em;
   padding: 2em;
   display: block;
 
@@ -35,4 +39,13 @@ a {
   border-radius: 1em;
 
   text-decoration: none;
+}
+
+a:visited {
+  background-color: rgb(77, 222, 235);
+}
+
+a:hover {
+  filter: brightness(1.1);
+  text-decoration: underline;
 }
