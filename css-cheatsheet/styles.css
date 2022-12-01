@@ -7,11 +7,15 @@
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
+body {
+  width: 100%;
+}
+
 h1 {
   margin: 2em auto;
   width: fit-content;
   font-family: 'Press Start 2P', cursive;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .h1__span {
@@ -34,7 +38,7 @@ table {
 
 table th {
   font-weight: bold;
-  font-size: large;
+  font-size: medium;
   padding: 1em;
   background-color: lightskyblue;
   font-family: 'Press Start 2P', cursive;

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  user-select: none;
+}
+
+header span {
+  font-family: 'Great Vibes', cursive;
+  font-size: xx-large;
+  max-height: 50px;
+  margin-left: 10px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+header ul li a {
+  text-decoration: underline;
+  color: seashell;
+  cursor: pointer;
+}
+
+header ul li a:hover {
+  color: lightblue;
+}
+
+#mission {
+  margin: 0 auto;
+  margin-top: 70px;
+  background-image: url('../images/img-locations-background.webp');
+  height: 700px;
+  width: 1200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission article {
+  display: block;
+  height: fit-content;
+  width: 100%;
+  margin: 0.5em 0;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* tea of the month */
+#totm {
+  margin: 2em auto;
+  width: 1200px;
+}
+
+#totm #images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#totm figure img {
+  height: 200px;
+  width: 300px;
+}
+
+#totm figcaption {
+  margin-top: 10px;
+}
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url('../images/img-locations-background.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#location-items {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px;
+  padding: 1em 0;
+  width: 300px;
+}
+
+/* the tea cozy */
+#ttc {
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  padding-left: 20px;
+  text-align: left;
+
+  font-family: 'Great Vibes', cursive;
+  font-size: x-large;
+  margin: 1em;
+}
