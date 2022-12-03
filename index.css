@@ -26,6 +26,8 @@ h1 {
 img {
   border-radius: 1em;
   margin: 1em;
+
+  max-width: 90%;
 }
 
 a {
