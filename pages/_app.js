@@ -17,12 +17,12 @@ export default function MyApp({ Component, pageProps }) {
         {/* theme color */}
         <meta
           name="theme-color"
-          content="rgb(0, 13, 27)"
+          content="rgb(1, 6, 12)"
           media="(prefers-color-scheme: light)"
         />
         <meta
           name="theme-color"
-          content="rgb(0, 13, 27)"
+          content="rgb(1, 6, 12)"
           media="(prefers-color-scheme: dark)"
         />
 
