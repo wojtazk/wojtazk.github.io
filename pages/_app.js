@@ -14,6 +14,7 @@ export default function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
         />
 
+        {/* theme color */}
         <meta
           name="theme-color"
           content="rgb(0, 13, 27)"
@@ -26,6 +27,7 @@ export default function MyApp({ Component, pageProps }) {
         />
 
         {/* favicons */}
+        {/* generated with https://realfavicongenerator.net/  ❤️ */}
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -53,7 +55,9 @@ export default function MyApp({ Component, pageProps }) {
         {/* <meta name="theme-color" content="#ffffff" /> */}
       </Head>
 
-      <Component {...pageProps} />
+      <div className="overlay" aria-hidden="true">
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
