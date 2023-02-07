@@ -5,3 +5,4 @@ favicon - cursor - https://pixabay.com/vectors/cursor-finger-hand-hyperlink-link
 //////////////
 // icons
 github - https://github.com/logos
+linkedin - https://brand.linkedin.com/downloads
