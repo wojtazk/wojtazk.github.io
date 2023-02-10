@@ -1,6 +1,11 @@
 .mainContent {
-  width: fit-content;
+  /* width: fit-content; */
+  position: relative;
+  z-index: 2;
+  min-width: 20rem;
+  height: fit-content;
   margin: 0 auto;
+  margin-bottom: 4rem;
   text-align: center;
 }
 
