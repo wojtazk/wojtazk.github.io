@@ -55,9 +55,8 @@ export default function MyApp({ Component, pageProps }) {
         {/* <meta name="theme-color" content="#ffffff" /> */}
       </Head>
 
-      <div className="overlay" aria-hidden="true">
-        <Component {...pageProps} />
-      </div>
+      <Component {...pageProps} />
+      <div className="overlay" aria-hidden="true"></div>
     </>
   );
 }
