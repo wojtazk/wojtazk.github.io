@@ -1,4 +1,5 @@
 My portfolio
 ---
 
-media used in this project -> https://github.com/wojtazk/wojtazk.github.io/blob/main/public/images/sources.txt
+media used in this project -> [./public/images/sources.txt](./public/images/sources.txt)
+
