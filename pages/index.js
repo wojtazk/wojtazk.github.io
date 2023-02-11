@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css';
-import BusinessCards from './components/BusinessCards';
+import BusinessCards from '../components/BusinessCards';
 
 const links = [
   {
