@@ -14,6 +14,8 @@
 
   ![image](https://user-images.githubusercontent.com/48928433/219641171-f8a40601-9251-4a15-b87b-8ec32ac3bdd7.png)
 ---
-media used in this project -> [/public/images/sources.txt](./public/images/sources.txt)  
+
+Media used in this project -> [/public/images/sources.txt](./public/images/sources.txt)  
+
 The assets in `/public/images/` are under their providers licenses.
 
