@@ -8,3 +8,27 @@
 
   /* background-color: rgba(44, 44, 45, 0.693); */
 }
+
+@media screen and (min-width: 1024px) {
+  .business-cards {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .business-cards {
+    width: 69%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .business-cards {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .business-cards {
+    padding: 0.5rem;
+  }
+}
