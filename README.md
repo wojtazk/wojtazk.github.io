@@ -15,7 +15,7 @@
 </div>
 
 ## Theme
-Absolutely amazing! - [TerminalCV - Hugo theme](https://github.com/coolapso/hugo-theme-terminalcv) by [coolapso](https://github.com/coolapso) \
+[TerminalCV - Hugo theme](https://github.com/coolapso/hugo-theme-terminalcv) by [coolapso](https://github.com/coolapso) (Absolutely amazing! ❤️‍🔥❤️‍🔥❤️‍🔥)
 
 
 ## Updating theme
