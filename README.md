@@ -27,3 +27,12 @@ This is also an option (if you didn't modify the theme)
 ```shell
 git submodule update --remote --merge themes/terminalcv
 ```
+## Ascii art
+- font: `chunky`
+- generator: https://doodlenerd.com/web-tool/figlet-generator
+
+## Favicon
+[Terminal Browser SVG Vector](https://www.svgrepo.com/svg/471972/terminal-browser) by SVG Repo (`CC0 License`)
+
+## Favicon generator
+https://realfavicongenerator.net/
