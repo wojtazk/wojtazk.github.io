@@ -33,7 +33,7 @@ git submodule update --remote --merge themes/terminalcv
 - repo: [HTML5 Prank Windows 11 Update Screen](https://github.com/Z2r-YT/Fake-Windows-Update-Screen) (Awesome! 🪟)
 - license: `MIT`
 
-<img width="50%" alt="image" src="https://github.com/user-attachments/assets/4f5c5c01-4a02-4782-ac1e-639a4c2d407a" />
+<img width="50%" alt="fake windows update" src="https://github.com/user-attachments/assets/4f5c5c01-4a02-4782-ac1e-639a4c2d407a" />
 
 
 ## Ascii art
