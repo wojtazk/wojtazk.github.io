@@ -33,7 +33,7 @@ params:
   # promptColor: grey
   # promptSimbols: ':~$'
   # promptSimbolsColor: grey
-  startxLocation: ./test
+  startxLocation: ./gui
   # useLess: true
   listLS: true
   #exitLocation: "about:blank"
@@ -41,8 +41,7 @@ params:
   source: true
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
   greeting: |
-    ‎
-                       __  __                  __    
+    ‎                   __  __                  __    
     .--.--.--..-----. |__||  |_ .---.-..-----.|  |--.
     |  |  |  ||  _  | |  ||   _||  _  ||-- __||    < 
     |________||_____| |  ||____||___._||_____||__|__|
