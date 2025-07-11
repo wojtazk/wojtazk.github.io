@@ -14,11 +14,16 @@
 
 </div>
 
+## Cloning
+```shell
+git clone --recurse-submodules https://github.com/wojtazk/wojtazk.github.io.git
+```
+
 ## Theme
 - repo: [TerminalCV - Hugo theme](https://github.com/coolapso/hugo-theme-terminalcv) by [coolapso](https://github.com/coolapso) (Absolutely amazing! ❤️‍🔥❤️‍🔥❤️‍🔥)
 - license: `MIT`
 
-
+<!--
 ### Updating theme
 Merge with the remote, prefer local changes
 ```shell
@@ -28,6 +33,7 @@ This is also an option (if you didn't modify the theme)
 ```shell
 git submodule update --remote --merge themes/terminalcv
 ```
+-->
 
 ## StartX (Fake Windows Update)
 - repo: [HTML5 Prank Windows 11 Update Screen](https://github.com/Z2r-YT/Fake-Windows-Update-Screen) (Awesome! 🪟)
