@@ -1,18 +1,19 @@
 
-<div align="center">
+<!-- <div align="center"> -->
 
 # My CV Page
 
-![GitHub](https://img.shields.io/github/license/wojtazk/wojtazk.github.io)
+![GitHub License](https://img.shields.io/github/license/wojtazk/wojtazk.github.io)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wojtazk/wojtazk.github.io)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/wojtazk/wojtazk.github.io/.github/workflows/nextjs.yml)  
 
 ![GitHub forks](https://img.shields.io/github/forks/wojtazk/wojtazk.github.io?logoColor=blue&style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/wojtazk/wojtazk.github.io?style=social)  
 
----
+<img width="50%" alt="terminalCV" src="https://github.com/user-attachments/assets/58951d46-e7fb-42a0-ba5d-72e1f2b2a07d" />
 
-</div>
+<!-- </div> -->
+
 
 ## Cloning
 ```shell
@@ -39,7 +40,7 @@ git submodule update --remote --merge themes/terminalcv
 - repo: [HTML5 Prank Windows 11 Update Screen](https://github.com/Z2r-YT/Fake-Windows-Update-Screen) (Awesome! 🪟)
 - license: `MIT`
 
-<img width="50%" alt="fake windows update" src="https://github.com/user-attachments/assets/4f5c5c01-4a02-4782-ac1e-639a4c2d407a" />
+<img max-width="50%" alt="fake windows update" src="https://github.com/user-attachments/assets/4f5c5c01-4a02-4782-ac1e-639a4c2d407a" />
 
 
 ## Ascii art
