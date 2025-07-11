@@ -15,10 +15,11 @@
 </div>
 
 ## Theme
-[TerminalCV - Hugo theme](https://github.com/coolapso/hugo-theme-terminalcv) by [coolapso](https://github.com/coolapso) (Absolutely amazing! ❤️‍🔥❤️‍🔥❤️‍🔥)
+- repo: [TerminalCV - Hugo theme](https://github.com/coolapso/hugo-theme-terminalcv) by [coolapso](https://github.com/coolapso) (Absolutely amazing! ❤️‍🔥❤️‍🔥❤️‍🔥)
+- license: `MIT`
 
 
-## Updating theme
+### Updating theme
 Merge with the remote, prefer local changes
 ```shell
 git -C themes/terminalcv pull --no-edit -s recursive -X ours origin main
@@ -27,12 +28,19 @@ This is also an option (if you didn't modify the theme)
 ```shell
 git submodule update --remote --merge themes/terminalcv
 ```
+
+## StartX (Fake Windows Update)
+- repo: [HTML5 Prank Windows 11 Update Screen](https://github.com/Z2r-YT/Fake-Windows-Update-Screen) (Awesome! 🪟)
+- license: `MIT`
+
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/4f5c5c01-4a02-4782-ac1e-639a4c2d407a" />
+
+
 ## Ascii art
 - font: `chunky`
 - generator: https://doodlenerd.com/web-tool/figlet-generator
 
 ## Favicon
-[Terminal Browser SVG Vector](https://www.svgrepo.com/svg/471972/terminal-browser) by SVG Repo (`CC0 License`)
-
-## Favicon generator
-https://realfavicongenerator.net/
+- icon: [Terminal Browser SVG Vector](https://www.svgrepo.com/svg/471972/terminal-browser) by SVG Repo
+- license: `CC0 License`
+- favicon generator: https://realfavicongenerator.net/
