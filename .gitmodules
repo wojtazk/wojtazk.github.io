@@ -1,6 +1,6 @@
 [submodule "themes/terminalcv"]
 	path = themes/terminalcv
-	url = https://github.com/coolapso/hugo-theme-terminalcv.git
+	url = https://github.com/wojtazk/hugo-theme-terminalcv.git
 [submodule "static/gui"]
 	path = static/gui
-	url = https://github.com/Z2r-YT/Fake-Windows-Update-Screen
+	url = https://github.com/wojtazk/Fake-Windows-Update-Screen.git
