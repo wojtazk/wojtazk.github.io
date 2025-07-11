@@ -1,34 +1,34 @@
-## Example Config file
 baseURL: 'https://wojtazk.github.io'
 theme: 'terminalcv'
 title: 'wojtazk'
 
 params:
   version: '1.0.0'
-  description: 'My terminal cv'
-  blog: true
+  description: 'My online resume'
+  blog: false
   prompt:
     core:
       text: 'root@wojtazk-github-io'
       color: '#8AE234'
       before: '['
-      beforeColor: 'red'
-      after: '\]'
-      afterColor: 'red'
+      beforeColor: '#cc0000'
+      # after: '\]'
+      afterColor: '#cc0000'
       separator: '-'
-    separator:
-      text: '-'
-      # color:
+    # separator:
+    #   text: ' in'
+    #   color: 'grey'
     path:
-      before: '['
-      beforeColor: 'red'
+      # before: '['
+      before: ' '
+      beforeColor: '#cc0000'
       text: '~/resume_exe'
       color: '#729FCF'
       after: '\]'
-      afterColor: 'red'
+      afterColor: '#cc0000'
     extra:
-      text: ': '
-      color: 'orange'
+      text: '# '
+      color: 'grey'
 
   # promptColor: grey
   # promptSimbols: ':~$'
@@ -36,9 +36,9 @@ params:
   startxLocation: ./gui
   # useLess: true
   listLS: true
-  #exitLocation: "about:blank"
+  # exitLocation: 'about:blank'
   exitMessage: '[Session completed, the browserwindow can be safely closed]'
-  source: true
+  source: false
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
   greeting: |
     ‎                   __  __                  __    
@@ -74,7 +74,7 @@ params:
     #   useLess: true
     details:
       name: 'Wojciech Kowal'
-      profession: 'Student'
+      profession: 'Cybersec Student'
       location: 'Wrocław, Poland'
       email: 'wojtazk@duck.com'
       homelink: 'https://wojtazk.github.io'
@@ -97,67 +97,103 @@ params:
     # settings:
     #   useLess: true
     details:
-      - jobTitle: Job With Red Title
+      - jobTitle: Intern in Network Maintenance Department
         color: red
-        company: '-'
-        location: somewhere
-        date: August 2010 - Present
-        description: Some description about this red title job
+        company: Wrocław Centre for Networking and Supercomputing
+        location: Wrocław, Poland
+        date: May 2025 - June 2025 (2 months)
+        description: Internship (part of first-level studies)
 
-      - jobTitle: Job with purple title
-        color: purple
-        company: '-'
-        location: somewhere elese
-        date: July 2000  - July 2010
-        description: Some description about this purple job
+      - jobTitle: Intern in Computer Repair Shop
+        color: green
+        company: WMPnet
+        location: Toruń, Poland
+        date: July 2021 - July 2021 (1 month)
+        description: Internship (part of Toruń + EU project "Dobry zawód - dobry staż")
 
-      - jobTitle: Job with default color title
-        company: '-'
-        location: anywhere
-        date: July 2008 - 2010
-        description: Description about this default color job
+      - jobTitle: Intern in Server Administration Department
+        color: lightblue
+        company: Neuca S.A.
+        location: Toruń, Poland
+        date: May 2021 - May 2021 (1 month)
+        description: Internship (part of secondary school)
 
   education:
     details:
-      - courseName: Red Color training
+      - courseName: Wrocław University of Science and Technology
         color: red
-        date: June 2019 - July 2019
-        description: Descrption about red color trianing
+        date: Oct 2022 - Present (Expected in Feb 2026)
+        description: first-level studies, full-time studies | Cybersecurity
 
-      - courseName: Default color training
-        date: Sept 2004 - Jun 2008
-        #description: There is no need for description
+      - courseName: Zespół Szkół Mechanicznych Elektrycznych i Elektronicznych im. prof. Sylwestra Kaliskiego w Toruniu
+        color: green
+        date: Sept 2018 - Apr 2022
+        description: secondary school | Technik Informatyk (IT Technician)
 
   skills:
-    settings:
-      useLess: true
+    # settings:
+    #   useLess: true
     details:
-      - name: Skill 1
-        percentage: 90
-        Description: you can add a description
+      - name: Linux
+        percentage: 70
+        description: I use Arch btw
 
-      - name: Skill 2
-        percentage: 30
-        #description: or you can leave it comented
-
-      - name: Skill 3
-        color: blue
+      - name: Windows
         percentage: 50
-        description: Skill names can have colors too
+        description: Yeah, Linux is better :)
+
+      - name: Networking
+        percentage: 65
+        description: Surrounded by Cisco staff, I personally rely on a MikroTik Router.
+
+      - name: Git
+        percentage: 65
+
+      - name: GitHub
+        percentage: 65
+
+      - name: Docker
+        percentage: 65
+
+      - name: AWS
+        percentage: 20
+
+      - name: Python
+        percentage: 70
+
+      - name: Bash
+        percentage: 60
+
+      - name: C++
+        percentage: 50
+
+      - name: SQL
+        percentage: 60
+
+      - name: HTML, CSS, JavaScript
+        percentage: 75
+
+      - name: React.js
+        percentage: 65
 
   softskills:
     # settings:
     #   useLess: true
     details:
-      - name: SoftSkill 1
-        color: red
-        percentage: 80
+      - name: Problem-Solving
+        # color: red
+        percentage: 75
         #description:
 
-      - name: SoftSkill 2
-        #color:
-        percentage: 90
-        description: Description
+      - name: Communication
+        # color: green
+        percentage: 70
+        # description: Description
+
+      - name: Teamwork
+        # color: lightblue
+        percentage: 70
+        # description: Description
 
   languages:
     # settings:
@@ -173,47 +209,84 @@ params:
         percentage: 85
         description: Hello there!
 
-      - name: Gibberish
+      - name: Klingon
         color: lightblue
-        percentage: 100
-        description: pasghettipigglywiggly
+        percentage: 0
+        description: nuqneH?
 
   projects:
     # settings:
     #   useLess: true
     details:
-      - title: Project Red
+      - title: test-cross-platform
         color: red
-        date: since 2019
-        link: https://example.com
-        description: Describing red stuff
+        date: 2025
+        link: https://github.com/wojtazk/testo-cross-platform
+        description: 'Cross-platform implementation of popular quiz app at PWR, technologies used: Tauri + Vite + Ionic + React'
 
-      - title: Project Blue
-        color: blue
-        date: since 2016
-        link: https://example.com/blue
-        #description: nothing to describe
+      - title: dazy-banych
+        color: green
+        date: 2024
+        link: https://github.com/wojtazk/dazy-banych
+        description: 'Database course project, technologies used: PostgreSQL, Python + Flask, Next.js + HeroUI'
 
-      - title: Project Default
-        date: Since 2017
-        link: https://example.com/default
-        #description: not there either
+      - title: Phishing Awareness Simulation Tool
+        color: lightblue
+        date: 2025
+        link: https://github.com/OsinsqLew/Phishing-Awareness-Simulation-Tool-
+        description: 'Team Project for University: I was responsible for phishing email generation, containerizing the application, and deploying it on AWS.'
+
+      - title: And many more :)
+        # color: lightblue
+        date: all the time
+        link: https://github.com/wojtazk
+        description: Check them out!
 
   certifications:
     # settings:
     #   useLess: true
     details:
-      - certName: Example Cert
-        company: Example Certifying Company
-        date: Date of Completion
-        badge: https://www.link.to.badge
+      - certName: Network Security (Course Completion)
+        company: Wrocław University of Science and Technology
+        date: Jun 2025
+        badge: https://www.credly.com/badges/6a60c7cf-dffe-42c9-82c7-ca5cf99c1ac3/public_url
+        #description: Lorem Ipsum
+
+      - certName: 'CCNA: Enterprise Networking, Security, and Automation (Course Completion)'
+        company: Wrocław University of Science and Technology
+        date: Feb 2025
+        badge: https://www.credly.com/badges/146434a6-441d-4ea6-be5b-14a469ba633c/public_url
+        #description: Lorem Ipsum
+
+      - certName: 'CCNA: Switching, Routing, and Wireless Essentials (Course Completion)'
+        company: Wrocław University of Science and Technology
+        date: Jul 2024
+        badge: https://www.credly.com/badges/f02a86ed-51ac-423d-acff-d17743b6bfea/public_url
+        #description: Lorem Ipsum
+
+      - certName: 'CCNA: Introduction to Networks (Course Completion)'
+        company: Wrocław University of Science and Technology
+        date: Jul 2024
+        badge: https://www.credly.com/badges/3171c619-ec2b-4716-a69b-7edb5e43c30d/public_url
+        #description: Lorem Ipsum
+
+      - certName: 'Derive Insights from BigQuery Data Skill Badge'
+        company: Google Cloud
+        date: Sep 2024
+        badge: https://www.credly.com/badges/bc53c6f8-35fc-499c-8a45-315584ad0779/public_url
+        #description: Lorem Ipsum
+
+      - certName: 'Introduction to Cybersecurity (Course Completion)'
+        company: Zespół Szkół Mechanicznych Elektrycznych i Elektronicznych im. prof. Sylwestra Kaliskiego w Toruniu
+        date: Jun 2020
+        badge: https://www.credly.com/badges/f185a7ec-ed1a-4805-99da-af1384f8a36d/public_url
         #description: Lorem Ipsum
 
   misc:
     # settings:
     #   useLess: true
     commandName: invasion
-    title: 'Alien invasion'
+    title: 'alien invasion'
     titleColor: '#F83B3A'
     content: |
       ‎
