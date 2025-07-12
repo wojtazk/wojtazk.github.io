@@ -1,0 +1,34 @@
+name: CI Checks
+
+on:
+  # Run workflow on pushes to the specified branches
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  ci_checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true # Fetch Hugo themes (and other submodules)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.148.1' # The Hugo version (https://github.com/gohugoio/hugo/releases)
+          # extended: true # Uncomment if you need the extended version
+
+      - name: Build Hugo Site
+        run: hugo --minify # Builds the site and places it in the 'public' directory
+
+      - name: Check for broken links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --base-url ${{ github.event.repository.homepage || '' }} ./public # Scans the 'public' directory
