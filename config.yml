@@ -92,6 +92,8 @@ params:
         url: 'https://www.linkedin.com/in/kowal-wojciech/'
       - name: 'TryHackMe'
         url: 'https://tryhackme.com/p/wojtazk'
+      - name: 'Codecademy'
+        url: 'https://www.codecademy.com/profiles/wojtazk'
 
   work:
     # settings:
@@ -252,6 +254,12 @@ params:
         badge: https://www.credly.com/badges/6a60c7cf-dffe-42c9-82c7-ca5cf99c1ac3/public_url
         #description: Lorem Ipsum
 
+      - certName: Pre Security Certificate
+        company: TryHackMe
+        date: Jun 2025
+        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AXIQVSVAKR.pdf
+        #description: Lorem Ipsum
+
       - certName: 'CCNA: Enterprise Networking, Security, and Automation (Course Completion)'
         company: Wrocław University of Science and Technology
         date: Feb 2025
@@ -276,10 +284,76 @@ params:
         badge: https://www.credly.com/badges/bc53c6f8-35fc-499c-8a45-315584ad0779/public_url
         #description: Lorem Ipsum
 
+      - certName: 'Learn Python 3 Course (Course Completion)'
+        company: Codecademy
+        date: Oct 2023
+        badge: https://www.codecademy.com/profiles/wojtazk/certificates/6c152bd262967f8c941c9707ed636bda
+        #description: Lorem Ipsum
+
+      - certName: 'Learn Git & GitHub Course (Course Completion)'
+        company: Codecademy
+        date: Sep 2023
+        badge: https://www.codecademy.com/profiles/wojtazk/certificates/a8ab218d5950c29861635cc0bf12fd13
+        #description: Lorem Ipsum
+
+      - certName: 'Learn the Command Line Course (Course Completion)'
+        company: Codecademy
+        date: Aug 2023
+        badge: https://www.codecademy.com/profiles/wojtazk/certificates/c87ba0541f8be78bc2f4ba1128233f6f
+        #description: Lorem Ipsum
+
+      - certName: 'Learn JavaScript Unit Testing Course (Course Completion)'
+        company: Codecademy
+        date: Jan 2023
+        badge: https://www.codecademy.com/profiles/wojtazk/certificates/f4276e8c08a3ba174ef0147deb0c3013
+        #description: Lorem Ipsum
+
+      - certName: 'Learn JavaScript Course (Course Completion)'
+        company: Codecademy
+        date: Jan 2023
+        badge: https://www.codecademy.com/profiles/wojtazk/certificates/705dcb15de0da4dd9d9fc4f3274b430e
+        #description: Lorem Ipsum
+
+      - certName: 'Learn C++ Course (Course Completion)'
+        company: Codecademy
+        date: Oct 2022
+        badge: https://www.codecademy.com/profiles/wojtazk/certificates/b74a2390dfc4127fa5d43fe147425ad0
+        #description: Lorem Ipsum
+
+      - certName: 'React - The Complete Guide (incl Hooks, React Router, Redux) (Course Completion)'
+        company: Udemy
+        date: Aug 2022
+        badge: https://www.udemy.com/certificate/UC-a6980186-e536-443c-b898-6842cae07960/
+        #description: Lorem Ipsum
+
+      - certName: 'The Complete JavaScript Course 2022: From Zero to Expert! (Course Completion)'
+        company: Udemy
+        date: Jul 2022
+        badge: https://www.udemy.com/certificate/UC-797288db-757f-468d-bf5d-fa37bbd49b42/
+        #description: Lorem Ipsum
+
+      - certName: 'The Complete Ethical Hacking Course: Beginner to Advanced! (Course Completion)'
+        company: Udemy
+        date: Nov 2021
+        badge: https://www.udemy.com/certificate/UC-3f8f185a-4d45-43f8-8f33-6221ec2724db/
+        #description: Lorem Ipsum
+
+      - certName: 'C++ od Podstaw do Eksperta (Course Completion)'
+        company: Udemy
+        date: Aug 2021
+        badge: https://www.udemy.com/certificate/UC-a8e59611-f902-4767-a217-03d2b6a55618/
+        #description: Lorem Ipsum
+
       - certName: 'Introduction to Cybersecurity (Course Completion)'
         company: Zespół Szkół Mechanicznych Elektrycznych i Elektronicznych im. prof. Sylwestra Kaliskiego w Toruniu
         date: Jun 2020
         badge: https://www.credly.com/badges/f185a7ec-ed1a-4805-99da-af1384f8a36d/public_url
+        #description: Lorem Ipsum
+
+      - certName: 'Learn Linux in 5 Days and Level Up Your Career (Course Completion)'
+        company: Udemy
+        date: Jan 2020
+        badge: https://www.udemy.com/certificate/UC-R1VLNRLM/
         #description: Lorem Ipsum
 
   misc:
