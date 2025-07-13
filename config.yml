@@ -248,6 +248,12 @@ params:
     # settings:
     #   useLess: true
     details:
+      - certName: Cyber Security 101 Certificate
+        company: TryHackMe
+        date: July 2025
+        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-31SPZFNLDG.pdf
+        #description: Lorem Ipsum
+    
       - certName: Network Security (Course Completion)
         company: Wrocław University of Science and Technology
         date: Jun 2025
