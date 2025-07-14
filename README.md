@@ -4,7 +4,8 @@
 # My CV Page
 
 ![GitHub License](https://img.shields.io/github/license/wojtazk/wojtazk.github.io)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/wojtazk/wojtazk.github.io/.github/workflows/ci.yml)
+![GitHub Workflow Status - ci.yml](https://img.shields.io/github/actions/workflow/status/wojtazk/wojtazk.github.io/ci.yml?label=CI%20checks)
+![GitHub Workflow Status - deploy.yml](https://img.shields.io/github/actions/workflow/status/wojtazk/wojtazk.github.io/deploy.yml?label=GitHub%20Pages%20deployment)
 <!-- ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wojtazk/wojtazk.github.io) -->
 
 ![GitHub forks](https://img.shields.io/github/forks/wojtazk/wojtazk.github.io?logoColor=blue&style=social)
