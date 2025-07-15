@@ -8,8 +8,8 @@
 ![GitHub Workflow Status - deploy.yml](https://img.shields.io/github/actions/workflow/status/wojtazk/wojtazk.github.io/deploy.yml?label=GitHub%20Pages%20deployment)
 <!-- ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wojtazk/wojtazk.github.io) -->
 
-![GitHub forks](https://img.shields.io/github/forks/wojtazk/wojtazk.github.io?logoColor=blue&style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/wojtazk/wojtazk.github.io?style=social)  
+<!-- ![GitHub forks](https://img.shields.io/github/forks/wojtazk/wojtazk.github.io?logoColor=blue&style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/wojtazk/wojtazk.github.io?style=social)  -->
 
 <img width="50%" alt="terminalCV" src="https://github.com/user-attachments/assets/58951d46-e7fb-42a0-ba5d-72e1f2b2a07d" />
 
