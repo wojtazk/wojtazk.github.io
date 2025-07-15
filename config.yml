@@ -106,14 +106,14 @@ params:
         date: May 2025 - June 2025 (2 months)
         description: Internship (part of first-level studies)
 
-      - jobTitle: Intern in Computer Repair Shop
+      - jobTitle: Intern at Computer Repair Shop
         color: green
         company: WMPnet
         location: Toruń, Poland
         date: July 2021 - July 2021 (1 month)
         description: Internship (part of Toruń + EU project "Dobry zawód - dobry staż")
 
-      - jobTitle: Intern in Server Administration Department
+      - jobTitle: Intern in IT Department
         color: lightblue
         company: Neuca S.A.
         location: Toruń, Poland
