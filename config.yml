@@ -248,9 +248,15 @@ params:
     # settings:
     #   useLess: true
     details:
+      - certName: Jr Penetration Tester Certificate
+        company: TryHackMe
+        date: Aug 2025
+        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-NQTA8WIJBW.pdf
+        #description: Lorem Ipsum
+
       - certName: Cyber Security 101 Certificate
         company: TryHackMe
-        date: July 2025
+        date: Jul 2025
         badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-31SPZFNLDG.pdf
         #description: Lorem Ipsum
     
