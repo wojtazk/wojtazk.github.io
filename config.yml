@@ -248,6 +248,12 @@ params:
     # settings:
     #   useLess: true
     details:
+      - certName: Web Fundamentals Certificate
+        company: TryHackMe
+        date: Aug 2025
+        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-9HA9JWLMRW.pdf
+        #description: Lorem Ipsum
+        
       - certName: Jr Penetration Tester Certificate
         company: TryHackMe
         date: Aug 2025
