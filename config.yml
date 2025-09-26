@@ -249,10 +249,10 @@ params:
     #   useLess: true
     details:
       - certName: Web Application Pentesting Certificate
-          company: TryHackMe
-          date: Sep 2025
-          badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-LS3LJ6CUUV.pdf
-          #description: Lorem Ipsum
+        company: TryHackMe
+        date: Sep 2025
+        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-LS3LJ6CUUV.pdf
+        #description: Lorem Ipsum
         
       - certName: Web Fundamentals Certificate
         company: TryHackMe
