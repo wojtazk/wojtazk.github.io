@@ -29,6 +29,6 @@ jobs:
         run: hugo --minify # Builds the site and places it in the 'public' directory
 
       - name: Check for broken links
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           args: --base-url ${{ github.event.repository.homepage || '' }} ./public # Scans the 'public' directory
