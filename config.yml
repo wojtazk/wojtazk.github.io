@@ -103,14 +103,14 @@ params:
     #   useLess: true
     details:
       - jobTitle: Intern in Network Maintenance Department
-        color: red
+        color: lightcoral
         company: Wrocław Centre for Networking and Supercomputing
         location: Wrocław, Poland
         date: May 2025 - June 2025 (2 months)
         description: Internship (part of first-level studies)
 
       - jobTitle: Intern at Computer Repair Shop
-        color: green
+        color: lightgreen
         company: WMPnet
         location: Toruń, Poland
         date: July 2021 - July 2021 (1 month)
@@ -126,12 +126,17 @@ params:
   education:
     details:
       - courseName: Wrocław University of Science and Technology
-        color: red
-        date: Oct 2022 - Present (Expected in Feb 2026)
-        description: first-level studies, full-time studies | Cybersecurity
+        color: lightcoral
+        date: Mar 2026 - Expected Jul 2027
+        description: Master's degree studies (full-time) | Cybersecurity
+
+      - courseName: Wrocław University of Science and Technology
+        color: lightgreen
+        date: Oct 2022 - Feb 2026
+        description: Bachelo's degree studies (full-time) | Cybersecurity
 
       - courseName: Zespół Szkół Mechanicznych Elektrycznych i Elektronicznych im. prof. Sylwestra Kaliskiego w Toruniu
-        color: green
+        color: lightblue
         date: Sept 2018 - Apr 2022
         description: secondary school | Technik Informatyk (IT Technician)
 
@@ -205,12 +210,12 @@ params:
     #   useLess: true
     details:
       - name: Polish
-        color: Red
+        color: lightcoral
         percentage: 100
         description: Cześć!
 
       - name: English
-        color: Green
+        color: lightgreen
         percentage: 85
         description: Hello there!
 
@@ -224,13 +229,13 @@ params:
     #   useLess: true
     details:
       - title: test-cross-platform
-        color: red
+        color: lightcoral
         date: 2025
         link: https://github.com/wojtazk/testo-cross-platform
         description: 'Cross-platform implementation of popular quiz app at PWR, technologies used: Tauri + Vite + Ionic + React'
 
       - title: dazy-banych
-        color: green
+        color: lightgreen
         date: 2024
         link: https://github.com/wojtazk/dazy-banych
         description: 'Database course project, technologies used: PostgreSQL, Python + Flask, Next.js + HeroUI'
