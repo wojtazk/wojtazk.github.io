@@ -40,13 +40,15 @@ params:
   exitMessage: '[Session completed, the browser window can be safely closed]'
   source: false
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
-  greeting: |
+  greetingbannercolor: lime
+  greetingbanner: |
     ‎                   __  __                  __    
     .--.--.--..-----. |__||  |_ .---.-..-----.|  |--.
     |  |  |  ||  _  | |  ||   _||  _  ||-- __||    < 
     |________||_____| |  ||____||___._||_____||__|__|
-                     |___|                               
-                                                                
+                     |___|
+
+  greeting: |
     Welcome to my online resume
 
     Type 'help' for a list of available commands
@@ -244,6 +246,33 @@ params:
         link: https://github.com/wojtazk
         description: Check them out!
 
+  publications:
+    # settings:
+    #   useLess: true
+    # details:
+    #   - title: "Machine Learning for Terminal Enthusiasts"
+    #     color: green
+    #     authors: "John Doe, Jane Smith"
+    #     venue: "Journal of Terminal Computing, Vol. 42"
+    #     date: "2025"
+    #     link: "https://example.com/paper1"
+    #     description: "A comprehensive study on ML applications in terminal interfaces"
+
+    #   - title: "The Art of ASCII: Modern Approaches"
+    #     color: blue
+    #     authors: "John Doe"
+    #     venue: "International Conference on Text-Based Interfaces (ICTBI)"
+    #     date: "2024"
+    #     link: "https://example.com/paper2"
+    #     #description:
+
+    #   - title: "Understanding Command Line User Experience"
+    #     authors: "John Doe, Bob Wilson, Alice Brown"
+    #     venue: "ACM Transactions on Human-Computer Interaction"
+    #     date: "2023"
+    #     #link:
+    #     description: "Research on improving CLI usability and accessibility"
+
   certifications:
     # settings:
     #   useLess: true
@@ -259,19 +288,19 @@ params:
         date: Dec 2025
         badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KDVTLIAHSG.pdf
         #description: Lorem Ipsum
-    
+
       - certName: Web Application Pentesting Certificate
         company: TryHackMe
         date: Sep 2025
         badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-LS3LJ6CUUV.pdf
         #description: Lorem Ipsum
-        
+
       - certName: Web Fundamentals Certificate
         company: TryHackMe
         date: Aug 2025
         badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-9HA9JWLMRW.pdf
         #description: Lorem Ipsum
-        
+
       - certName: Jr Penetration Tester Certificate
         company: TryHackMe
         date: Aug 2025
@@ -283,7 +312,7 @@ params:
         date: Jul 2025
         badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-31SPZFNLDG.pdf
         #description: Lorem Ipsum
-    
+
       - certName: Network Security (Course Completion)
         company: Wrocław University of Science and Technology
         date: Jun 2025
