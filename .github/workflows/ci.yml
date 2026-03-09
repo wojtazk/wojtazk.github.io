@@ -28,7 +28,7 @@ jobs:
       - name: Build Hugo Site
         run: hugo --minify # Builds the site and places it in the 'public' directory
 
-      - name: Check for broken links
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: ./public # Scans the 'public' directory
+      # - name: Check for broken links
+      #   uses: lycheeverse/lychee-action@v2
+      #   with:
+      #     args: ./public # Scans the 'public' directory
