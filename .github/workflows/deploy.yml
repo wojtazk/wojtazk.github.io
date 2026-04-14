@@ -9,6 +9,9 @@ on:
   # Allow manual workflow trigger
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -27,7 +30,7 @@ jobs:
     steps:
       # Step 1: Clone the project and initialize submodules
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: true # Fetch Hugo themes (and other submodules)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
@@ -36,7 +39,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.148.1' # The Hugo version (https://github.com/gohugoio/hugo/releases)
+          hugo-version: 'latest' # The Hugo version (https://github.com/gohugoio/hugo/releases)
           # extended: true # Uncomment if you need the extended version
 
       - name: Build
@@ -44,7 +47,7 @@ jobs:
 
       # Step 3: Upload the static site artifact
       - name: Upload artifacts
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
 
@@ -58,4 +61,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
