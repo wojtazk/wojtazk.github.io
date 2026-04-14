@@ -283,6 +283,12 @@ params:
     # settings:
     #   useLess: true
     details:
+      - certName: SOC Level 2 Certificate
+        company: TryHackMe
+        date: Apr 2026
+        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-2NBDSFCRUY.pdf
+        #description: Lorem Ipsum
+      
       - certName: SOC Level 1 Certificate
         company: TryHackMe
         date: Jan 2026
