@@ -3,7 +3,7 @@ theme: 'terminalcv'
 title: 'wojtazk'
 
 params:
-  version: 'v1.1.0'
+  version: 'v1.1.1'
   description: 'My online resume'
   blog: false
   prompt:
@@ -133,7 +133,7 @@ params:
       - courseName: Wrocław University of Science and Technology
         color: lightgreen
         date: Oct 2022 - Feb 2026
-        description: Bachelo's degree studies (full-time) | Cybersecurity
+        description: Bachelor's degree studies (full-time) | Cybersecurity
 
       - courseName: Zespół Szkół Mechanicznych Elektrycznych i Elektronicznych im. prof. Sylwestra Kaliskiego w Toruniu
         color: lightblue
@@ -283,6 +283,12 @@ params:
     # settings:
     #   useLess: true
     details:
+      - certName: AI Security Certificate
+        company: TryHackMe
+        date: May 2026
+        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-3XNTJSEILE.pdf
+        #description: Lorem Ipsum
+        
       - certName: SOC Level 2 Certificate
         company: TryHackMe
         date: Apr 2026
