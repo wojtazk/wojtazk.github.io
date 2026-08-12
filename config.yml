@@ -102,6 +102,13 @@ params:
     # settings:
     #   useLess: true
     details:
+      - jobTitle: Cyber Risk Intern
+        color: '#0096FF'
+        company: Erste Bank Polska
+        location: Wrocław, Poland
+        date: July 2026 - present
+        description: stażTECH
+        
       - jobTitle: Intern in Network Maintenance Department
         color: lightcoral
         company: Wrocław Centre for Networking and Supercomputing
