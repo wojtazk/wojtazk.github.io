@@ -290,22 +290,28 @@ params:
     # settings:
     #   useLess: true
     details:
-      - certName: AI Security Certificate
+      - certName: Jr Penetration Tester (Path Completion)
         company: TryHackMe
-        date: May 2026
-        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-3XNTJSEILE.pdf
+        date: Oct 2026
+        badge: https://tryhackme.com/certificate/THM-6FI9ODX7BB
         #description: Lorem Ipsum
         
-      - certName: SOC Level 2 Certificate
+      - certName: AI Security (Path Completion)
+        company: TryHackMe
+        date: May 2026
+        badge: https://tryhackme.com/certificate/THM-3XNTJSEILE
+        #description: Lorem Ipsum
+        
+      - certName: SOC Level 2 (legacy) (Path Completion)
         company: TryHackMe
         date: Apr 2026
-        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-2NBDSFCRUY.pdf
+        badge: https://tryhackme.com/certificate/THM-2NBDSFCRUY
         #description: Lorem Ipsum
       
-      - certName: SOC Level 1 Certificate
+      - certName: SOC Level 1 (Path Completion)
         company: TryHackMe
         date: Jan 2026
-        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-2PVXDJ1SGF.pdf
+        badge: https://tryhackme.com/certificate/THM-2PVXDJ1SGF
         #description: Lorem Ipsum
 
       - certName: Advent of Cyber 2025 Certificate
@@ -314,56 +320,56 @@ params:
         badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KDVTLIAHSG.pdf
         #description: Lorem Ipsum
 
-      - certName: Web Application Pentesting Certificate
+      - certName: Web Application Pentesting (Path Completion)
         company: TryHackMe
         date: Sep 2025
-        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-LS3LJ6CUUV.pdf
+        badge: https://tryhackme.com/certificate/THM-LS3LJ6CUUV
         #description: Lorem Ipsum
 
-      - certName: Web Fundamentals Certificate
+      - certName: Web Fundamentals (legacy) (Path Completion)
         company: TryHackMe
         date: Aug 2025
-        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-9HA9JWLMRW.pdf
+        badge: https://tryhackme.com/certificate/THM-9HA9JWLMRW
         #description: Lorem Ipsum
 
-      - certName: Jr Penetration Tester Certificate
+      - certName: Jr Penetration Tester (legacy) (Path Completion)
         company: TryHackMe
         date: Aug 2025
-        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-NQTA8WIJBW.pdf
+        badge: https://tryhackme.com/certificate/THM-NQTA8WIJBW
         #description: Lorem Ipsum
 
-      - certName: Cyber Security 101 Certificate
+      - certName: Cyber Security 101 (Path Completion)
         company: TryHackMe
         date: Jul 2025
-        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-31SPZFNLDG.pdf
+        badge: https://tryhackme.com/certificate/THM-31SPZFNLDG
         #description: Lorem Ipsum
 
       - certName: Network Security (Course Completion)
-        company: Wrocław University of Science and Technology
+        company: Cisco
         date: Jun 2025
         badge: https://www.credly.com/badges/6a60c7cf-dffe-42c9-82c7-ca5cf99c1ac3/public_url
         #description: Lorem Ipsum
 
-      - certName: Pre Security Certificate
+      - certName: Pre Security (legacy) (Path Completion)
         company: TryHackMe
         date: Jun 2025
-        badge: https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AXIQVSVAKR.pdf
+        badge: https://tryhackme.com/certificate/THM-AXIQVSVAKR
         #description: Lorem Ipsum
 
       - certName: 'CCNA: Enterprise Networking, Security, and Automation (Course Completion)'
-        company: Wrocław University of Science and Technology
+        company: Cisco
         date: Feb 2025
         badge: https://www.credly.com/badges/146434a6-441d-4ea6-be5b-14a469ba633c/public_url
         #description: Lorem Ipsum
 
       - certName: 'CCNA: Switching, Routing, and Wireless Essentials (Course Completion)'
-        company: Wrocław University of Science and Technology
+        company: Cisco
         date: Jul 2024
         badge: https://www.credly.com/badges/f02a86ed-51ac-423d-acff-d17743b6bfea/public_url
         #description: Lorem Ipsum
 
       - certName: 'CCNA: Introduction to Networks (Course Completion)'
-        company: Wrocław University of Science and Technology
+        company: Cisco
         date: Jul 2024
         badge: https://www.credly.com/badges/3171c619-ec2b-4716-a69b-7edb5e43c30d/public_url
         #description: Lorem Ipsum
@@ -435,7 +441,7 @@ params:
         #description: Lorem Ipsum
 
       - certName: 'Introduction to Cybersecurity (Course Completion)'
-        company: Zespół Szkół Mechanicznych Elektrycznych i Elektronicznych im. prof. Sylwestra Kaliskiego w Toruniu
+        company: Cisco
         date: Jun 2020
         badge: https://www.credly.com/badges/f185a7ec-ed1a-4805-99da-af1384f8a36d/public_url
         #description: Lorem Ipsum
